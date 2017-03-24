@@ -1,0 +1,481 @@
+2017-03-15 17:01:33 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [203.156.252.203:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 1
+
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bufferpool-wait-time
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name buffer-exhausted-records
+2017-03-15 17:01:33 [org.apache.kafka.clients.Metadata.update(Metadata.java:180)] - [ DEBUG ] Updated cluster metadata version 1 to Cluster(nodes = [203.156.252.203:9092 (id: -1 rack: null)], partitions = [])
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-closed:
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-created:
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent-received:
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent:
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-received:
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name select-time:
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name io-time:
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name batch-size
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name compression-rate
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name queue-time
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name request-time
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name produce-throttle-time
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name records-per-request
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name record-retries
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name errors
+2017-03-15 17:01:33 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name record-size-max
+2017-03-15 17:01:33 [org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:129)] - [ DEBUG ] Starting Kafka producer I/O thread.
+2017-03-15 17:01:33 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [203.156.252.203:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 1
+
+2017-03-15 17:01:33 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:83)] - [ INFO ] Kafka version : 0.10.0.1
+2017-03-15 17:01:33 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:84)] - [ INFO ] Kafka commitId : a7a17cdec9eaa6c5
+2017-03-15 17:01:33 [org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:329)] - [ DEBUG ] Kafka producer started
+2017-03-15 17:01:34 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-15 17:01:34 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.203:9092.
+2017-03-15 17:01:34 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-sent
+2017-03-15 17:01:34 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-received
+2017-03-15 17:01:34 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.latency
+2017-03-15 17:01:34 [org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476)] - [ DEBUG ] Completed connection to node -1
+2017-03-15 17:01:35 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:640)] - [ DEBUG ] Sending metadata request {topics=[seamus-topic]} to node -1
+2017-03-15 17:01:35 [org.apache.kafka.clients.Metadata.update(Metadata.java:180)] - [ DEBUG ] Updated cluster metadata version 2 to Cluster(nodes = [q3.infopower.com:9092 (id: 3 rack: null), q1.infopower.com:9092 (id: 1 rack: null), q2.infopower.com:9092 (id: 2 rack: null)], partitions = [Partition(topic = seamus-topic, partition = 2, leader = 3, replicas = [3,], isr = [3,], Partition(topic = seamus-topic, partition = 0, leader = 1, replicas = [1,], isr = [1,], Partition(topic = seamus-topic, partition = 1, leader = 2, replicas = [2,], isr = [2,]])
+2017-03-15 17:01:35 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 3 at q3.infopower.com:9092.
+2017-03-15 17:01:35 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 1 条消息,key:0,value:0 
+2017-03-15 17:01:36 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 2 条消息,key:1,value:1 
+2017-03-15 17:01:37 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 3 条消息,key:2,value:2 
+2017-03-15 17:01:38 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 4 条消息,key:3,value:3 
+2017-03-15 17:01:39 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 5 条消息,key:4,value:4 
+2017-03-15 17:01:39 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at q2.infopower.com:9092.
+2017-03-15 17:01:40 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 6 条消息,key:5,value:5 
+2017-03-15 17:01:41 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 7 条消息,key:6,value:6 
+2017-03-15 17:01:42 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 8 条消息,key:7,value:7 
+2017-03-15 17:01:43 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 9 条消息,key:8,value:8 
+2017-03-15 17:01:44 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 10 条消息,key:9,value:9 
+2017-03-15 17:01:45 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 11 条消息,key:10,value:10 
+2017-03-15 17:01:46 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 12 条消息,key:11,value:11 
+2017-03-15 17:01:47 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 13 条消息,key:12,value:12 
+2017-03-15 17:01:47 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at q1.infopower.com:9092.
+2017-03-15 17:01:48 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 14 条消息,key:13,value:13 
+2017-03-15 17:01:49 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 15 条消息,key:14,value:14 
+2017-03-15 17:01:50 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 16 条消息,key:15,value:15 
+2017-03-15 17:01:51 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 17 条消息,key:16,value:16 
+2017-03-15 17:01:52 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 18 条消息,key:17,value:17 
+2017-03-15 17:01:53 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 19 条消息,key:18,value:18 
+2017-03-15 17:01:54 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 20 条消息,key:19,value:19 
+2017-03-15 17:01:55 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 21 条消息,key:20,value:20 
+2017-03-15 17:01:56 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 22 条消息,key:21,value:21 
+2017-03-15 17:01:57 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 23 条消息,key:22,value:22 
+2017-03-15 17:01:58 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 24 条消息,key:23,value:23 
+2017-03-15 17:01:59 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 25 条消息,key:24,value:24 
+2017-03-15 17:02:00 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 26 条消息,key:25,value:25 
+2017-03-15 17:02:00 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-3.bytes-sent
+2017-03-15 17:02:00 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-3.bytes-received
+2017-03-15 17:02:00 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-3.latency
+2017-03-15 17:02:00 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q3.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:00 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 3 disconnected.
+2017-03-15 17:02:00 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 3 at q3.infopower.com:9092.
+2017-03-15 17:02:01 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 27 条消息,key:26,value:26 
+2017-03-15 17:02:01 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.bytes-sent
+2017-03-15 17:02:01 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.bytes-received
+2017-03-15 17:02:01 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.latency
+2017-03-15 17:02:01 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q2.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:01 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 2 disconnected.
+2017-03-15 17:02:01 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at q2.infopower.com:9092.
+2017-03-15 17:02:02 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 28 条消息,key:27,value:27 
+2017-03-15 17:02:03 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 29 条消息,key:28,value:28 
+2017-03-15 17:02:04 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 30 条消息,key:29,value:29 
+2017-03-15 17:02:05 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 31 条消息,key:30,value:30 
+2017-03-15 17:02:06 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 32 条消息,key:31,value:31 
+2017-03-15 17:02:07 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 33 条消息,key:32,value:32 
+2017-03-15 17:02:08 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 34 条消息,key:33,value:33 
+2017-03-15 17:02:09 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 35 条消息,key:34,value:34 
+2017-03-15 17:02:10 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 36 条消息,key:35,value:35 
+2017-03-15 17:02:11 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 37 条消息,key:36,value:36 
+2017-03-15 17:02:12 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 38 条消息,key:37,value:37 
+2017-03-15 17:02:13 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 39 条消息,key:38,value:38 
+2017-03-15 17:02:14 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 40 条消息,key:39,value:39 
+2017-03-15 17:02:15 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 41 条消息,key:40,value:40 
+2017-03-15 17:02:16 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 42 条消息,key:41,value:41 
+2017-03-15 17:02:16 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.bytes-sent
+2017-03-15 17:02:16 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.bytes-received
+2017-03-15 17:02:16 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.latency
+2017-03-15 17:02:16 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q1.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:16 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 1 disconnected.
+2017-03-15 17:02:16 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at q1.infopower.com:9092.
+2017-03-15 17:02:17 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 43 条消息,key:42,value:42 
+2017-03-15 17:02:18 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 44 条消息,key:43,value:43 
+2017-03-15 17:02:19 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 45 条消息,key:44,value:44 
+2017-03-15 17:02:20 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 46 条消息,key:45,value:45 
+2017-03-15 17:02:21 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 47 条消息,key:46,value:46 
+2017-03-15 17:02:21 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q3.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:21 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 3 disconnected.
+2017-03-15 17:02:21 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 3 at q3.infopower.com:9092.
+2017-03-15 17:02:22 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 48 条消息,key:47,value:47 
+2017-03-15 17:02:22 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q2.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:22 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 2 disconnected.
+2017-03-15 17:02:22 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at q2.infopower.com:9092.
+2017-03-15 17:02:23 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 49 条消息,key:48,value:48 
+2017-03-15 17:02:24 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 50 条消息,key:49,value:49 
+2017-03-15 17:02:25 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 51 条消息,key:50,value:50 
+2017-03-15 17:02:26 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 52 条消息,key:51,value:51 
+2017-03-15 17:02:27 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 53 条消息,key:52,value:52 
+2017-03-15 17:02:28 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 54 条消息,key:53,value:53 
+2017-03-15 17:02:29 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 55 条消息,key:54,value:54 
+2017-03-15 17:02:30 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 56 条消息,key:55,value:55 
+2017-03-15 17:02:31 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 57 条消息,key:56,value:56 
+2017-03-15 17:02:32 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 58 条消息,key:57,value:57 
+2017-03-15 17:02:33 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 59 条消息,key:58,value:58 
+2017-03-15 17:02:34 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 60 条消息,key:59,value:59 
+2017-03-15 17:02:35 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 61 条消息,key:60,value:60 
+2017-03-15 17:02:36 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 62 条消息,key:61,value:61 
+2017-03-15 17:02:37 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 63 条消息,key:62,value:62 
+2017-03-15 17:02:37 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q1.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:37 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 1 disconnected.
+2017-03-15 17:02:37 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at q1.infopower.com:9092.
+2017-03-15 17:02:38 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 64 条消息,key:63,value:63 
+2017-03-15 17:02:39 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 65 条消息,key:64,value:64 
+2017-03-15 17:02:40 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 66 条消息,key:65,value:65 
+2017-03-15 17:02:41 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 67 条消息,key:66,value:66 
+2017-03-15 17:02:42 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 68 条消息,key:67,value:67 
+2017-03-15 17:02:42 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q3.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:42 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 3 disconnected.
+2017-03-15 17:02:43 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 3 for sending metadata request
+2017-03-15 17:02:43 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 3 at q3.infopower.com:9092.
+2017-03-15 17:02:43 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 69 条消息,key:68,value:68 
+2017-03-15 17:02:43 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q2.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:43 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 2 disconnected.
+2017-03-15 17:02:43 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at q2.infopower.com:9092.
+2017-03-15 17:02:44 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 70 条消息,key:69,value:69 
+2017-03-15 17:02:45 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 71 条消息,key:70,value:70 
+2017-03-15 17:02:46 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 72 条消息,key:71,value:71 
+2017-03-15 17:02:47 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 73 条消息,key:72,value:72 
+2017-03-15 17:02:48 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 74 条消息,key:73,value:73 
+2017-03-15 17:02:49 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 75 条消息,key:74,value:74 
+2017-03-15 17:02:50 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 76 条消息,key:75,value:75 
+2017-03-15 17:02:51 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 77 条消息,key:76,value:76 
+2017-03-15 17:02:52 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 78 条消息,key:77,value:77 
+2017-03-15 17:02:53 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 79 条消息,key:78,value:78 
+2017-03-15 17:02:54 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 80 条消息,key:79,value:79 
+2017-03-15 17:02:55 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 81 条消息,key:80,value:80 
+2017-03-15 17:02:56 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 82 条消息,key:81,value:81 
+2017-03-15 17:02:57 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 83 条消息,key:82,value:82 
+2017-03-15 17:02:58 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 84 条消息,key:83,value:83 
+2017-03-15 17:02:58 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q1.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:02:58 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 1 disconnected.
+2017-03-15 17:02:58 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at q1.infopower.com:9092.
+2017-03-15 17:02:59 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 85 条消息,key:84,value:84 
+2017-03-15 17:03:00 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 86 条消息,key:85,value:85 
+2017-03-15 17:03:01 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 87 条消息,key:86,value:86 
+2017-03-15 17:03:02 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 88 条消息,key:87,value:87 
+2017-03-15 17:03:03 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 89 条消息,key:88,value:88 
+2017-03-15 17:03:04 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q3.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:03:04 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 3 disconnected.
+2017-03-15 17:03:04 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 3 at q3.infopower.com:9092.
+2017-03-15 17:03:04 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 90 条消息,key:89,value:89 
+2017-03-15 17:03:04 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q2.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:03:04 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 2 disconnected.
+2017-03-15 17:03:04 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at q2.infopower.com:9092.
+2017-03-15 17:03:05 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 91 条消息,key:90,value:90 
+2017-03-15 17:03:06 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 92 条消息,key:91,value:91 
+2017-03-15 17:03:07 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 93 条消息,key:92,value:92 
+2017-03-15 17:03:08 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 94 条消息,key:93,value:93 
+2017-03-15 17:03:09 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 95 条消息,key:94,value:94 
+2017-03-15 17:03:10 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 96 条消息,key:95,value:95 
+2017-03-15 17:03:11 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 97 条消息,key:96,value:96 
+2017-03-15 17:03:12 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 98 条消息,key:97,value:97 
+2017-03-15 17:03:13 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 99 条消息,key:98,value:98 
+2017-03-15 17:03:14 [me.showi.simple.MyProducer.main(MyProducer.java:33)] - [ DEBUG ] 发送第 100 条消息,key:99,value:99 
+2017-03-15 17:03:14 [org.apache.kafka.clients.producer.KafkaProducer.close(KafkaProducer.java:658)] - [ INFO ] Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+2017-03-15 17:03:14 [org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:140)] - [ DEBUG ] Beginning shutdown of Kafka producer I/O thread, sending remaining records.
+2017-03-15 17:03:19 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q1.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:147)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:03:19 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 1 disconnected.
+2017-03-15 17:03:19 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at q1.infopower.com:9092.
+2017-03-15 17:03:25 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q3.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:147)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:03:25 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 3 disconnected.
+2017-03-15 17:03:25 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 3 for sending metadata request
+2017-03-15 17:03:25 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 3 at q3.infopower.com:9092.
+2017-03-15 17:03:25 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q2.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:147)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:03:25 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 2 disconnected.
+2017-03-15 17:03:25 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at q2.infopower.com:9092.
+2017-03-15 17:03:40 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q1.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:147)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-15 17:03:40 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 1 disconnected.
+2017-03-15 17:03:40 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 1 for sending metadata request
+2017-03-15 17:03:40 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at q1.infopower.com:9092.
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name connections-closed:
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name connections-created:
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name bytes-sent-received:
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name bytes-sent:
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name bytes-received:
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name select-time:
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name io-time:
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node--1.bytes-sent
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node--1.bytes-received
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node--1.latency
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-3.bytes-sent
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-3.bytes-received
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-3.latency
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-2.bytes-sent
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-2.bytes-received
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-2.latency
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-1.bytes-sent
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-1.bytes-received
+2017-03-15 17:03:43 [org.apache.kafka.common.metrics.Metrics.removeSensor(Metrics.java:315)] - [ DEBUG ] Removed sensor with name node-1.latency
+2017-03-15 17:03:43 [org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:163)] - [ DEBUG ] Shutdown of Kafka producer I/O thread has completed.
+2017-03-15 17:03:43 [org.apache.kafka.clients.producer.KafkaProducer.close(KafkaProducer.java:700)] - [ DEBUG ] The Kafka producer has closed.

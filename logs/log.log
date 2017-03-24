@@ -1,0 +1,1334 @@
+2017-03-23 16:51:48 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [q1:9092, q2:9092, q3:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 1000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = mytest-2
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2017-03-23 16:51:48 [org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:597)] - [ DEBUG ] Starting the Kafka consumer
+2017-03-23 16:52:00 [org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:49)] - [ WARN ] Removing server from bootstrap.servers as DNS resolution failed: q1:9092
+2017-03-23 16:52:03 [org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:49)] - [ WARN ] Removing server from bootstrap.servers as DNS resolution failed: q2:9092
+2017-03-23 16:52:06 [org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses(ClientUtils.java:49)] - [ WARN ] Removing server from bootstrap.servers as DNS resolution failed: q3:9092
+2017-03-23 16:52:06 [org.apache.kafka.clients.consumer.KafkaConsumer.close(KafkaConsumer.java:1390)] - [ DEBUG ] The Kafka consumer has closed.
+2017-03-23 16:53:31 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [203.156.252.193:9092, 203.156.252.203:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 1000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = mytest-2
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2017-03-23 16:53:31 [org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:597)] - [ DEBUG ] Starting the Kafka consumer
+2017-03-23 16:53:31 [org.apache.kafka.clients.Metadata.update(Metadata.java:180)] - [ DEBUG ] Updated cluster metadata version 1 to Cluster(nodes = [203.156.252.193:9092 (id: -1 rack: null), 203.156.252.203:9092 (id: -2 rack: null)], partitions = [])
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-closed:
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-created:
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent-received:
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent:
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-received:
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name select-time:
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name io-time:
+2017-03-23 16:53:31 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ConsumerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	partition.assignment.strategy = [org.apache.kafka.clients.consumer.RangeAssignor]
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	max.partition.fetch.bytes = 1048576
+	bootstrap.servers = [203.156.252.193:9092, 203.156.252.203:9092]
+	ssl.keystore.type = JKS
+	enable.auto.commit = true
+	sasl.mechanism = GSSAPI
+	interceptor.classes = null
+	exclude.internal.topics = true
+	ssl.truststore.password = null
+	client.id = consumer-1
+	ssl.endpoint.identification.algorithm = null
+	max.poll.records = 2147483647
+	check.crcs = true
+	request.timeout.ms = 40000
+	heartbeat.interval.ms = 3000
+	auto.commit.interval.ms = 1000
+	receive.buffer.bytes = 65536
+	ssl.truststore.type = JKS
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	fetch.min.bytes = 1
+	send.buffer.bytes = 131072
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	group.id = mytest-2
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	ssl.key.password = null
+	fetch.max.wait.ms = 500
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	session.timeout.ms = 30000
+	metrics.num.samples = 2
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	auto.offset.reset = earliest
+
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name heartbeat-latency
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name join-latency
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name sync-latency
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name commit-latency
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-fetched
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name records-fetched
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name fetch-latency
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name records-lag
+2017-03-23 16:53:31 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name fetch-throttle-time
+2017-03-23 16:53:31 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:83)] - [ INFO ] Kafka version : 0.10.0.1
+2017-03-23 16:53:32 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:84)] - [ INFO ] Kafka commitId : a7a17cdec9eaa6c5
+2017-03-23 16:53:32 [org.apache.kafka.clients.consumer.KafkaConsumer.<init>(KafkaConsumer.java:696)] - [ DEBUG ] Kafka consumer created
+2017-03-23 16:53:37 [org.apache.kafka.clients.consumer.KafkaConsumer.subscribe(KafkaConsumer.java:802)] - [ DEBUG ] Subscribed to topic(s): my-topic-2
+2017-03-23 16:53:37 [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendGroupCoordinatorRequest(AbstractCoordinator.java:476)] - [ DEBUG ] Sending coordinator request for group mytest-2 to broker 203.156.252.193:9092 (id: -1 rack: null)
+2017-03-23 16:53:37 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.193:9092.
+2017-03-23 16:53:37 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:37 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-sent
+2017-03-23 16:53:37 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-received
+2017-03-23 16:53:37 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.latency
+2017-03-23 16:53:37 [org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476)] - [ DEBUG ] Completed connection to node -1
+2017-03-23 16:53:37 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:640)] - [ DEBUG ] Sending metadata request {topics=[my-topic-2]} to node -1
+2017-03-23 16:53:37 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:37 [org.apache.kafka.clients.Metadata.update(Metadata.java:180)] - [ DEBUG ] Updated cluster metadata version 2 to Cluster(nodes = [q2.infopower.com:9092 (id: 2 rack: null), q3.infopower.com:9092 (id: 3 rack: null), q1.infopower.com:9092 (id: 1 rack: null)], partitions = [Partition(topic = my-topic-2, partition = 2, leader = 2, replicas = [2,], isr = [2,], Partition(topic = my-topic-2, partition = 1, leader = 1, replicas = [1,], isr = [1,], Partition(topic = my-topic-2, partition = 0, leader = 3, replicas = [3,], isr = [3,]])
+2017-03-23 16:53:37 [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:489)] - [ DEBUG ] Received group coordinator response ClientResponse(receivedTimeMs=1490259217886, disconnected=false, request=ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@35d019a3, request=RequestSend(header={api_key=10,api_version=0,correlation_id=0,client_id=consumer-1}, body={group_id=mytest-2}), createdTimeMs=1490259217745, sendTimeMs=1490259217852), responseBody={error_code=0,coordinator={node_id=1,host=q1.infopower.com,port=9092}})
+2017-03-23 16:53:37 [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.handleGroupMetadataResponse(AbstractCoordinator.java:505)] - [ INFO ] Discovered coordinator q1.infopower.com:9092 (id: 2147483646 rack: null) for group mytest-2.
+2017-03-23 16:53:37 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2147483646 at q1.infopower.com:9092.
+2017-03-23 16:53:39 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinPrepare(ConsumerCoordinator.java:292)] - [ INFO ] Revoking previously assigned partitions [] for group mytest-2
+2017-03-23 16:53:39 [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest(AbstractCoordinator.java:326)] - [ INFO ] (Re-)joining group mytest-2
+2017-03-23 16:53:39 [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest(AbstractCoordinator.java:334)] - [ DEBUG ] Sending JoinGroup ({group_id=mytest-2,session_timeout=30000,member_id=,protocol_type=consumer,group_protocols=[{protocol_name=range,protocol_metadata=java.nio.HeapByteBuffer[pos=0 lim=22 cap=22]}]}) to coordinator q1.infopower.com:9092 (id: 2147483646 rack: null)
+2017-03-23 16:53:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2147483646.bytes-sent
+2017-03-23 16:53:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2147483646.bytes-received
+2017-03-23 16:53:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2147483646.latency
+2017-03-23 16:53:39 [org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476)] - [ DEBUG ] Completed connection to node 2147483646
+2017-03-23 16:53:39 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q1.infopower.com/180.168.41.175 disconnected
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.read(PlaintextTransportLayer.java:110)
+	at org.apache.kafka.common.network.NetworkReceive.readFromReadableChannel(NetworkReceive.java:81)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:71)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:154)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:135)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:323)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.clientPoll(ConsumerNetworkClient.java:360)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:224)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:192)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:163)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup(AbstractCoordinator.java:243)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.ensurePartitionAssignment(ConsumerCoordinator.java:366)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.pollOnce(KafkaConsumer.java:978)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.poll(KafkaConsumer.java:938)
+	at me.showi.simple.MyConsumer.main(MyConsumer.java:53)
+2017-03-23 16:53:40 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 2147483646 disconnected.
+2017-03-23 16:53:40 [org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.onComplete(ConsumerNetworkClient.java:422)] - [ DEBUG ] Cancelled JOIN_GROUP request ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@65fb9ffc, request=RequestSend(header={api_key=11,api_version=0,correlation_id=2,client_id=consumer-1}, body={group_id=mytest-2,session_timeout=30000,member_id=,protocol_type=consumer,group_protocols=[{protocol_name=range,protocol_metadata=java.nio.HeapByteBuffer[pos=0 lim=22 cap=22]}]}), createdTimeMs=1490259219922, sendTimeMs=1490259219930) with correlation id 2 due to node 2147483646 being disconnected
+2017-03-23 16:53:40 [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.coordinatorDead(AbstractCoordinator.java:542)] - [ INFO ] Marking the coordinator q1.infopower.com:9092 (id: 2147483646 rack: null) dead for group mytest-2
+2017-03-23 16:53:40 [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendGroupCoordinatorRequest(AbstractCoordinator.java:476)] - [ DEBUG ] Sending coordinator request for group mytest-2 to broker q2.infopower.com:9092 (id: 2 rack: null)
+2017-03-23 16:53:40 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at q2.infopower.com:9092.
+2017-03-23 16:53:41 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 1 for sending metadata request
+2017-03-23 16:53:41 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at q1.infopower.com:9092.
+2017-03-23 16:53:41 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:41 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 3 for sending metadata request
+2017-03-23 16:53:41 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 3 at q3.infopower.com:9092.
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:42 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:43 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:44 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:45 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:46 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:47 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:48 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:49 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:50 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:51 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:52 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:53 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:54 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:55 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:56 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:57 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:58 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:53:59 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:00 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:01 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.bytes-sent
+2017-03-23 16:54:02 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.bytes-received
+2017-03-23 16:54:02 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.latency
+2017-03-23 16:54:02 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q1.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.clientPoll(ConsumerNetworkClient.java:360)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:224)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:192)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:163)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:179)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup(AbstractCoordinator.java:217)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.ensurePartitionAssignment(ConsumerCoordinator.java:366)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.pollOnce(KafkaConsumer.java:978)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.poll(KafkaConsumer.java:938)
+	at me.showi.simple.MyConsumer.main(MyConsumer.java:53)
+2017-03-23 16:54:02 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 1 disconnected.
+2017-03-23 16:54:02 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.bytes-sent
+2017-03-23 16:54:02 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.bytes-received
+2017-03-23 16:54:02 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.latency
+2017-03-23 16:54:02 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q2.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.clientPoll(ConsumerNetworkClient.java:360)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:224)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:192)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:163)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:179)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup(AbstractCoordinator.java:217)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.ensurePartitionAssignment(ConsumerCoordinator.java:366)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.pollOnce(KafkaConsumer.java:978)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.poll(KafkaConsumer.java:938)
+	at me.showi.simple.MyConsumer.main(MyConsumer.java:53)
+2017-03-23 16:54:02 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 2 disconnected.
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler.onComplete(ConsumerNetworkClient.java:422)] - [ DEBUG ] Cancelled GROUP_COORDINATOR request ClientRequest(expectResponse=true, callback=org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient$RequestFutureCompletionHandler@5e0e82ae, request=RequestSend(header={api_key=10,api_version=0,correlation_id=3,client_id=consumer-1}, body={group_id=mytest-2}), createdTimeMs=1490259220105, sendTimeMs=0) with correlation id 3 due to node 2 being disconnected
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:02 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 2 for sending metadata request
+2017-03-23 16:54:02 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at q2.infopower.com:9092.
+2017-03-23 16:54:03 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:03 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-3.bytes-sent
+2017-03-23 16:54:03 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-3.bytes-received
+2017-03-23 16:54:03 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-3.latency
+2017-03-23 16:54:03 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with q3.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.clientPoll(ConsumerNetworkClient.java:360)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:224)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll(ConsumerNetworkClient.java:192)
+	at org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.awaitMetadataUpdate(ConsumerNetworkClient.java:134)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureCoordinatorReady(AbstractCoordinator.java:183)
+	at org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup(AbstractCoordinator.java:217)
+	at org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.ensurePartitionAssignment(ConsumerCoordinator.java:366)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.pollOnce(KafkaConsumer.java:978)
+	at org.apache.kafka.clients.consumer.KafkaConsumer.poll(KafkaConsumer.java:938)
+	at me.showi.simple.MyConsumer.main(MyConsumer.java:53)
+2017-03-23 16:54:03 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 3 disconnected.
+2017-03-23 16:54:03 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:03 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:03 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 3 for sending metadata request
+2017-03-23 16:54:03 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 3 at q3.infopower.com:9092.
+2017-03-23 16:54:03 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 16:54:03 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 1 for sending metadata request
+2017-03-23 16:54:03 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at q1.infopower.com:9092.
+2017-03-23 16:54:03 [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator$AutoCommitTask.run(ConsumerCoordinator.java:458)] - [ DEBUG ] Cannot auto-commit offsets for group mytest-2 since the coordinator is unknown
+2017-03-23 17:00:58 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [203.156.252.204:9082, 203.156.252.203:9082, 203.156.252.193:9082, ]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 1
+
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bufferpool-wait-time
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name buffer-exhausted-records
+2017-03-23 17:00:58 [org.apache.kafka.clients.Metadata.update(Metadata.java:180)] - [ DEBUG ] Updated cluster metadata version 1 to Cluster(nodes = [203.156.252.203:9082 (id: -2 rack: null), 203.156.252.193:9082 (id: -3 rack: null), 203.156.252.204:9082 (id: -1 rack: null)], partitions = [])
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-closed:
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-created:
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent-received:
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent:
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-received:
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name select-time:
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name io-time:
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name batch-size
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name compression-rate
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name queue-time
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name request-time
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name produce-throttle-time
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name records-per-request
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name record-retries
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name errors
+2017-03-23 17:00:58 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name record-size-max
+2017-03-23 17:00:58 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [203.156.252.204:9082, 203.156.252.203:9082, 203.156.252.193:9082, ]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 1
+
+2017-03-23 17:00:58 [org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:129)] - [ DEBUG ] Starting Kafka producer I/O thread.
+2017-03-23 17:00:58 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:83)] - [ INFO ] Kafka version : 0.10.0.1
+2017-03-23 17:00:58 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:84)] - [ INFO ] Kafka commitId : a7a17cdec9eaa6c5
+2017-03-23 17:00:58 [org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:329)] - [ DEBUG ] Kafka producer started
+2017-03-23 17:00:58 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:00:58 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
+2017-03-23 17:00:58 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:00:58 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:00:58 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:00:58 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--3.bytes-sent
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--3.bytes-received
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--3.latency
+2017-03-23 17:00:59 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.193 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -3 disconnected.
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.bytes-sent
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.bytes-received
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.latency
+2017-03-23 17:00:59 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.203 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -2 disconnected.
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-sent
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-received
+2017-03-23 17:00:59 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.latency
+2017-03-23 17:00:59 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.204 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -1 disconnected.
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:00:59 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:01:00 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.203 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -2 disconnected.
+2017-03-23 17:01:00 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.193 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -3 disconnected.
+2017-03-23 17:01:00 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.204 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -1 disconnected.
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:01:00 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:01:01 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.204 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:01 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -1 disconnected.
+2017-03-23 17:01:01 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.193 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:01 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.203 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:01 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -3 disconnected.
+2017-03-23 17:01:01 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -2 disconnected.
+2017-03-23 17:01:02 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:01:02 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:01:02 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:01:02 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
+2017-03-23 17:01:02 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:01:02 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:01:03 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.203 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -2 disconnected.
+2017-03-23 17:01:03 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.204 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -1 disconnected.
+2017-03-23 17:01:03 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.193 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -3 disconnected.
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:01:03 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:01:04 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.193 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -3 disconnected.
+2017-03-23 17:01:04 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.204 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -1 disconnected.
+2017-03-23 17:01:04 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.203 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -2 disconnected.
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:01:04 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:05:36 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [101.231.74.137:9092, 101.231.74.138:9092, 101.231.74.139:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 1
+
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bufferpool-wait-time
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name buffer-exhausted-records
+2017-03-23 17:05:36 [org.apache.kafka.clients.Metadata.update(Metadata.java:180)] - [ DEBUG ] Updated cluster metadata version 1 to Cluster(nodes = [101.231.74.137:9092 (id: -1 rack: null), 101.231.74.138:9092 (id: -2 rack: null), 101.231.74.139:9092 (id: -3 rack: null)], partitions = [])
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-closed:
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-created:
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent-received:
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent:
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-received:
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name select-time:
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name io-time:
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name batch-size
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name compression-rate
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name queue-time
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name request-time
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name produce-throttle-time
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name records-per-request
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name record-retries
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name errors
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name record-size-max
+2017-03-23 17:05:36 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [101.231.74.137:9092, 101.231.74.138:9092, 101.231.74.139:9092]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 1
+
+2017-03-23 17:05:36 [org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:129)] - [ DEBUG ] Starting Kafka producer I/O thread.
+2017-03-23 17:05:36 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:83)] - [ INFO ] Kafka version : 0.10.0.1
+2017-03-23 17:05:36 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:84)] - [ INFO ] Kafka commitId : a7a17cdec9eaa6c5
+2017-03-23 17:05:36 [org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:329)] - [ DEBUG ] Kafka producer started
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 101.231.74.137:9092.
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 101.231.74.138:9092.
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-sent
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-received
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.latency
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476)] - [ DEBUG ] Completed connection to node -1
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.bytes-sent
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.bytes-received
+2017-03-23 17:05:36 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.latency
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient.handleConnections(NetworkClient.java:476)] - [ DEBUG ] Completed connection to node -2
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:640)] - [ DEBUG ] Sending metadata request {topics=[my-topic-2]} to node -2
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.handleResponse(NetworkClient.java:600)] - [ WARN ] Error while fetching metadata with correlation id 0 : {my-topic-2=LEADER_NOT_AVAILABLE}
+2017-03-23 17:05:36 [org.apache.kafka.clients.Metadata.update(Metadata.java:180)] - [ DEBUG ] Updated cluster metadata version 2 to Cluster(nodes = [d1.infopower.com:9092 (id: 1 rack: null), d2.infopower.com:9092 (id: 2 rack: null), d0.infopower.com:9092 (id: 0 rack: null)], partitions = [])
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 0 for sending metadata request
+2017-03-23 17:05:36 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 0 at d0.infopower.com:9092.
+2017-03-23 17:05:39 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 2 for sending metadata request
+2017-03-23 17:05:39 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at d2.infopower.com:9092.
+2017-03-23 17:05:44 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 1 for sending metadata request
+2017-03-23 17:05:44 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at d1.infopower.com:9092.
+2017-03-23 17:06:00 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-0.bytes-sent
+2017-03-23 17:06:00 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-0.bytes-received
+2017-03-23 17:06:00 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-0.latency
+2017-03-23 17:06:00 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with d0.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:06:00 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 0 disconnected.
+2017-03-23 17:06:00 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 0 for sending metadata request
+2017-03-23 17:06:00 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 0 at d0.infopower.com:9092.
+2017-03-23 17:06:05 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.bytes-sent
+2017-03-23 17:06:05 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.bytes-received
+2017-03-23 17:06:05 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-2.latency
+2017-03-23 17:06:05 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with d2.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:06:05 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 2 disconnected.
+2017-03-23 17:06:05 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 2 for sending metadata request
+2017-03-23 17:06:05 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 2 at d2.infopower.com:9092.
+2017-03-23 17:06:06 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.bytes-sent
+2017-03-23 17:06:06 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.bytes-received
+2017-03-23 17:06:06 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node-1.latency
+2017-03-23 17:06:06 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with d1.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:06:06 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 1 disconnected.
+2017-03-23 17:06:06 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 1 for sending metadata request
+2017-03-23 17:06:06 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 1 at d1.infopower.com:9092.
+2017-03-23 17:06:21 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with d0.infopower.com/180.168.41.175 disconnected
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:06:21 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node 0 disconnected.
+2017-03-23 17:06:22 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node 0 for sending metadata request
+2017-03-23 17:06:22 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node 0 at d0.infopower.com:9092.
+2017-03-23 17:47:38 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [203.156.252.204:9082, 203.156.252.203:9082, 203.156.252.193:9082, ]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = 
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 1
+
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bufferpool-wait-time
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name buffer-exhausted-records
+2017-03-23 17:47:38 [org.apache.kafka.clients.Metadata.update(Metadata.java:180)] - [ DEBUG ] Updated cluster metadata version 1 to Cluster(nodes = [203.156.252.193:9082 (id: -3 rack: null), 203.156.252.203:9082 (id: -2 rack: null), 203.156.252.204:9082 (id: -1 rack: null)], partitions = [])
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-closed:
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name connections-created:
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent-received:
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-sent:
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name bytes-received:
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name select-time:
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name io-time:
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name batch-size
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name compression-rate
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name queue-time
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name request-time
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name produce-throttle-time
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name records-per-request
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name record-retries
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name errors
+2017-03-23 17:47:38 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name record-size-max
+2017-03-23 17:47:38 [org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:129)] - [ DEBUG ] Starting Kafka producer I/O thread.
+2017-03-23 17:47:38 [org.apache.kafka.common.config.AbstractConfig.logAll(AbstractConfig.java:178)] - [ INFO ] ProducerConfig values: 
+	metric.reporters = []
+	metadata.max.age.ms = 300000
+	reconnect.backoff.ms = 50
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	bootstrap.servers = [203.156.252.204:9082, 203.156.252.203:9082, 203.156.252.193:9082, ]
+	ssl.keystore.type = JKS
+	sasl.mechanism = GSSAPI
+	max.block.ms = 60000
+	interceptor.classes = null
+	ssl.truststore.password = null
+	client.id = producer-1
+	ssl.endpoint.identification.algorithm = null
+	request.timeout.ms = 30000
+	acks = all
+	receive.buffer.bytes = 32768
+	ssl.truststore.type = JKS
+	retries = 0
+	ssl.truststore.location = null
+	ssl.keystore.password = null
+	send.buffer.bytes = 131072
+	compression.type = none
+	metadata.fetch.timeout.ms = 60000
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	buffer.memory = 33554432
+	timeout.ms = 30000
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	ssl.trustmanager.algorithm = PKIX
+	block.on.buffer.full = false
+	ssl.key.password = null
+	sasl.kerberos.min.time.before.relogin = 60000
+	connections.max.idle.ms = 540000
+	max.in.flight.requests.per.connection = 5
+	metrics.num.samples = 2
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	batch.size = 16384
+	ssl.keystore.location = null
+	ssl.cipher.suites = null
+	security.protocol = PLAINTEXT
+	max.request.size = 1048576
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	ssl.keymanager.algorithm = SunX509
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	linger.ms = 1
+
+2017-03-23 17:47:38 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:83)] - [ INFO ] Kafka version : 0.10.0.1
+2017-03-23 17:47:38 [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>(AppInfoParser.java:84)] - [ INFO ] Kafka commitId : a7a17cdec9eaa6c5
+2017-03-23 17:47:38 [org.apache.kafka.clients.producer.KafkaProducer.<init>(KafkaProducer.java:329)] - [ DEBUG ] Kafka producer started
+2017-03-23 17:47:38 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:47:38 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:47:38 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:47:38 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
+2017-03-23 17:47:38 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:47:38 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:47:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--3.bytes-sent
+2017-03-23 17:47:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--3.bytes-received
+2017-03-23 17:47:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--3.latency
+2017-03-23 17:47:39 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.193 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:47:39 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -3 disconnected.
+2017-03-23 17:47:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.bytes-sent
+2017-03-23 17:47:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.bytes-received
+2017-03-23 17:47:39 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--2.latency
+2017-03-23 17:47:39 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.203 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:47:39 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -2 disconnected.
+2017-03-23 17:47:39 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:47:39 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
+2017-03-23 17:47:40 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-sent
+2017-03-23 17:47:40 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.bytes-received
+2017-03-23 17:47:40 [org.apache.kafka.common.metrics.Metrics.sensor(Metrics.java:296)] - [ DEBUG ] Added sensor with name node--1.latency
+2017-03-23 17:47:40 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.204 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:47:40 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -1 disconnected.
+2017-03-23 17:47:40 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:47:40 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:47:40 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:47:40 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:47:40 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.193 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:47:40 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -3 disconnected.
+2017-03-23 17:47:41 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.204 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:47:41 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -1 disconnected.
+2017-03-23 17:47:41 [org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:345)] - [ DEBUG ] Connection with /203.156.252.203 disconnected
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect(PlaintextTransportLayer.java:51)
+	at org.apache.kafka.common.network.KafkaChannel.finishConnect(KafkaChannel.java:73)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:309)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:283)
+	at org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:260)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:229)
+	at org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:134)
+	at java.lang.Thread.run(Unknown Source)
+2017-03-23 17:47:41 [org.apache.kafka.clients.NetworkClient.handleDisconnections(NetworkClient.java:463)] - [ DEBUG ] Node -2 disconnected.
+2017-03-23 17:47:41 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -2 for sending metadata request
+2017-03-23 17:47:41 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -2 at 203.156.252.203:9082.
+2017-03-23 17:47:41 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -1 for sending metadata request
+2017-03-23 17:47:41 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -1 at 203.156.252.204:9082.
+2017-03-23 17:47:41 [org.apache.kafka.clients.NetworkClient$DefaultMetadataUpdater.maybeUpdate(NetworkClient.java:644)] - [ DEBUG ] Initialize connection to node -3 for sending metadata request
+2017-03-23 17:47:41 [org.apache.kafka.clients.NetworkClient.initiateConnect(NetworkClient.java:496)] - [ DEBUG ] Initiating connection to node -3 at 203.156.252.193:9082.
